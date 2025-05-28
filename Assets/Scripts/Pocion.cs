@@ -2,8 +2,10 @@ using UnityEngine;
 
 public class Pocion : MonoBehaviour
 {
-    private void OnTriggerEnter(Collider otro)
+
+    private void OnTriggerEnter2D(Collider2D otro)
     {
+        
         if (otro.name == "Player")
         {
             // Aumenta el contador global
